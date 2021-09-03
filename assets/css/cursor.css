@@ -5,7 +5,6 @@ body * {
   cursor: none;
 }
 
-
 .cursor-dot,
 .cursor-dot-outline {
   pointer-events: none;
@@ -22,11 +21,11 @@ body * {
 .cursor-dot {
   width: 10px;
   height: 10px;
-  background-color: #b83030f1;
+  background-color: #e46666f1;
 }
 
 .cursor-dot-outline {
   width: 20px;
   height: 20px;
-  background-color: rgba(211, 115, 115, 0.959);
+  background-color: rgba(209, 143, 143, 0.959);
 }

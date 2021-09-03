@@ -5,117 +5,88 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "Social Networks",
+    cardImage: "assets/images/education-page/nptel2.png",
+    moocLink: "https://onlinecourses.nptel.ac.in/noc20_cs78/preview",
   },
   {
-    title: "Cryptography",
+    title: "IBM Data Science Specialization",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink:
+      "https://www.coursera.org/account/accomplishments/specialization/certificate/AT82J3B9HKKJ",
+  },
+  {
+    title: "Data Science for Engineers",
+    cardImage: "assets/images/education-page/nptel2.png",
+    moocLink: "https://onlinecourses.nptel.ac.in/noc21_cs23/preview",
+  },
+  {
+    title: "The Complete Android Oreo Developer Course",
     cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    moocLink:
+      "https://www.udemy.com/course/the-complete-android-oreo-developer-course/",
   },
   {
-    title: "Machine Learning",
+    title: "Deep Learning Specialization",
     cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    moocLink:
+      "https://www.coursera.org/account/accomplishments/specialization/certificate/W4DYPGVJJSYU",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
-  {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/EdX.png",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+    title: "Python for Data Science",
+    cardImage: "assets/images/education-page/nptel2.png",
+    moocLink: "https://onlinecourses.nptel.ac.in/noc21_cs33/preview",
   },
 ];
 
 const experience = [
   {
-    img: "assets/images/education-page/c1.png"
+    img: "assets/images/education-page/c1.png",
   },
   {
-    img: "assets/images/education-page/c2.jpg"
+    img: "assets/images/education-page/c2.jpg",
   },
   {
-    img: "assets/images/education-page/c3.png"
+    img: "assets/images/education-page/c3.png",
   },
   {
-    img: "assets/images/education-page/c4.png"
+    img: "assets/images/education-page/c4.png",
   },
   {
-    img: "assets/images/education-page/c5.jpg"
+    img: "assets/images/education-page/c5.jpg",
   },
 ];
 
 let currentItem = 0;
 
-const img = document.getElementById('image');
+const img = document.getElementById("image");
 
-const prevBtn = document.querySelector('#prevBtn');
-const nextBtn = document.querySelector('#nextBtn');
+const prevBtn = document.querySelector("#prevBtn");
+const nextBtn = document.querySelector("#nextBtn");
 
-window.addEventListener('DOMContentLoaded', function () {
+window.addEventListener("DOMContentLoaded", function () {
   showExperience();
-})
+});
 
 function showExperience() {
   setInterval(function () {
     if (currentItem === experience.length) {
       currentItem = 0;
     }
-      const item = experience[currentItem];
-      img.src = item.img;
-      currentItem++;
-
-    },
-    3000);
+    const item = experience[currentItem];
+    img.src = item.img;
+    currentItem++;
+  }, 3000);
 }
 
 const showCards = () => {
   let output = "";
   moocscards.forEach(
     ({ title, cardImage, moocLink }) =>
-    (output += `        
+      (output += `        
         <div class="col-6 col-md-3 col-sm-4 column" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600" >  
             <div class="card mb-3 mx-auto">
-               <div class="content">
+               <div class="content"><a href="${moocLink}"/>
                   <div class="content-overlay"></div>
                     <img src=${cardImage} class="card-img-top content-image">     
                   <div class="content-details fadeIn-bottom">
@@ -132,7 +103,6 @@ const showCards = () => {
   moocs.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards);
-
 
 /* Badges*/
 
@@ -159,7 +129,7 @@ const showCards1 = () => {
   let output = "";
   badgesection.forEach(
     ({ title, image, description }) =>
-    (output += `       
+      (output += `       
       <div class="col-lg-4 col-md-6 p-2" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600"> 
         <img class="img-fluid d-block mb-3 mx-auto hvr-grow" src="${image}" alt="Card image cap" width="200">
           <div class="text-center font-weight-bolder" style="font-size: 1.3em;">${title}</div>
@@ -170,57 +140,48 @@ const showCards1 = () => {
 };
 document.addEventListener("DOMContentLoaded", showCards1);
 
-
 /* Timeline Section*/
 
-$(function(){
+const timeline = document.querySelector(".timeline-container");
+const timelinesection = [
+  {
+    heading: "SSN College of Engineering",
+    image: "assets/images/education-page/ssn.png",
+    subheading: "Bachelors of Technology, Information Technology, (2018-2022) ",
+    description:
+      "<li>CGPA: 8.82</li><li>Event Head of Procode(Intra department coding club)</li><li>Member of Coding Club, ML Tech Club</li>",
+  },
 
-  window.sr = ScrollReveal();
+  {
+    heading: "Sacred Heart MHSS Church Park",
+    image: "assets/images/education-page/school.jpeg",
+    subheading: "Computer Science, (2004-2018) ",
+    description:
+      "<br><li>93.75% in HSC</li>&nbsp;&nbsp;&nbsp;<li>97% in SSLC</li><li>Vice Captain and Captain of School house 2016-2018</li><li>Merit Rank Holder from 2008-2018</li><li>Member of Student Council</li>",
+  },
+];
 
-  if ($(window).width() < 768) {
+const showCards2 = () => {
+  let output = "";
+  timelinesection.forEach(
+    ({ heading, image, subheading, description }) =>
+      (output += `       
+    <div class="timeline-item">
+    <div class="timeline-img">
+        
+    </div>
 
-    if ($('.timeline-content').hasClass('js--fadeInLeft')) {
-      $('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
-    }
-
-    sr.reveal('.js--fadeInRight', {
-      origin: 'right',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
-    });
-
-  } else {
-    
-    sr.reveal('.js--fadeInLeft', {
-      origin: 'left',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
-    });
-
-    sr.reveal('.js--fadeInRight', {
-      origin: 'right',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
-    });
-
-  }
-  
-  sr.reveal('.js--fadeInLeft', {
-      origin: 'left',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
-    });
-
-    sr.reveal('.js--fadeInRight', {
-      origin: 'right',
-      distance: '300px',
-      easing: 'ease-in-out',
-      duration: 800,
-    });
-
-
-});
+    <div class="timeline-content js--fadeInLeft">
+        <img src="${image}" class="featured-image">
+    <div class="timeline-content-text">
+      <h2>${heading}</h2>
+      <h6>${subheading}</h6>
+      <p>${description}</p>
+     
+    </div>
+    </div>
+  </div>`)
+  );
+  timeline.innerHTML = output;
+};
+document.addEventListener("DOMContentLoaded", showCards2);

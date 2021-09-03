@@ -3,123 +3,42 @@
 const researchTable = document.querySelector(".main");
 
 const research = [
-    {
-        title : "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
-        authors : "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "popup1",
-        image : "assets/images/research-page/inteferenceNetwork.png",
-        citation: {
-            vancouver: "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 1",
-        absbox: "absPopup1"
+  {
+    title:
+      "ON THE IMPACT OF CLIMATIC, FISCAL AND ENVIRONMENTAL FACTORS ON COVID-19: A REGRESSION AND CORRELATION BASED STUDY",
+    authors: "Koushika P, Mahima S, Shahina A, Nayeemulla Khan A <br><br>",
+    journal: "International journal of Artificial & Computational Intelligence",
+    conferences:
+      "4th International Conference of COVID-19 Studies by IKSAD <br><br>",
+    researchYr: 2021,
+    citebox: "popup1",
+    image: "assets/images/research-page/covid19-1.jpeg",
+    citation: {
+      vancouver:
+        "Koushika P, Mahima S, Shahina A, Nayeemulla Khan A. N THE IMPACT OF CLIMATIC, FISCAL AND ENVIRONMENTAL FACTORS ON COVID-19: A REGRESSION AND CORRELATION BASED STUDY 2021.",
     },
-
-    {
-        title : "A Call for More Rigor in Unsupervised Cross-lingual Learning",
-        authors : "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "popup2",
-        image : "assets/images/research-page/crossLingual.png",
-        citation: {
-            vancouver: "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 2",
-        absbox: "absPopup2"
-    },
-
-    {
-        title : "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
-        authors : "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "popup3",
-        image : "assets/images/research-page/wordRepresentation.png",
-        citation: {
-            vancouver: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 3",
-        absbox: "absPopup3"
-    },
-
-    {
-        title : "A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking",
-        authors : "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "popup4",
-        image : "assets/images/research-page/dialogueState.png",
-        citation: {
-            vancouver: "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou. A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 4",
-        absbox: "absPopup4"
-    },
-
-    {
-        title : "Dual Super-Resolution Learning for Semantic Segmentation",
-        authors : "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "popup5",
-        image : "assets/images/research-page/semanticSegmentation.png",
-        citation: {
-            vancouver: "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi. Dual Super-Resolution Learning for Semantic Segmentation. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 5",
-        absbox: "absPopup5"
-    },
-
-    {
-        title : "Deep Unfolding Network for Image Super-Resolution",
-        authors : "Zhang, Kai and Van Gool, Luc and Timofte, Radu",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "popup6",
-        image : "assets/images/research-page/deepNetwork.png",
-        citation: {
-            vancouver: "Zhang, Kai and Van Gool, Luc and Timofte, Radu. Deep Unfolding Network for Image Super-Resolution. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 6",
-        absbox: "absPopup6"
-    },
-
-    {
-        title : "Unsupervised Learning for Intrinsic Image Decomposition From a Single Image",
-        authors : "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "popup7",
-        image : "assets/images/research-page/imageDecomposition.png",
-        citation: {
-            vancouver: "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng. Unsupervised Learning for Intrinsic Image Decomposition From a Single Image. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 7",
-        absbox: "absPopup7"
-    },
-    {
-        title : "Forward and Backward Information Retention for Accurate Binary Neural Networks",
-        authors : "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "popup8",
-        image : "assets/images/research-page/neuralNetworks.jpg",
-        citation: {
-            vancouver: "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan. Forward and Backward Information Retention for Accurate Binary Neural Networks. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 8",
-        absbox: "absPopup8"
-    }
+    abstract:
+      "COVID-19 is an infectious disease that has been affecting millions of people across nations, leading to a pandemic. We study the impact of climatic conditions, fiscal and developmental indices, population parameters and environmental conditions of a country on COVID-19 spread. Using JHU CSSE COVID-19 time-series dataset, we find that while the north temperate zone shows the highest increase in confirmed cases and deaths, the tropical zone has shown the highest recovery rate. The polar zone is negligibly affected by the virus. The correlation between number of cases and gross domestic product is 0.91. The Cases Per Population (CPP) and the country’s human development index show an unexpected positive correlation of 0.73. There is a negligible correlation of -0.11 between population density and the total cases. The correlation between urban population percent and CPP is 0.58. A weak correlation of 0.23 is obtained between urban particulate matter and total cases. <br> Keywords: COVID-19, zones, gross domestic product, human development index, population density, urban population percent, particulate matter, regression, correlation",
+    absbox: "absPopup1",
+  },
 ];
-AOS.init();   
+AOS.init();
 const fillData = () => {
-    let output = "";
-    research.forEach(
-        ({image, title, authors, conferences, researchYr, citebox, citation, absbox, abstract}) =>
-        (output +=`
+  let output = "";
+  research.forEach(
+    ({
+      image,
+      title,
+      authors,
+      conferences,
+      researchYr,
+      citebox,
+      citation,
+      absbox,
+      abstract,
+      journal,
+    }) =>
+      (output += `
             <tr data-aos="zoom-in-left"> 
                 <td class="imgCol"><img src="${image}" class="rImg"></td>
                 <td class = "researchTitleName">
@@ -129,7 +48,7 @@ const fillData = () => {
                         </span>
                     </div>
                     <a href="#0" class="paperTitle"> ${title} </a> 
-                    <div> ${authors} </div> <div class="rConferences"> ${conferences} 
+                    <div> ${authors} </div> <div class="rConferences"> ${conferences} <div font-style="bold"> Journal: ${journal} </div>
                         <div class="researchY">${researchYr}</div>
                     </div>
         
@@ -155,9 +74,7 @@ const fillData = () => {
                     </div>
                 </td>
             </tr>`)
-        );
-    researchTable.innerHTML = output;
-
+  );
+  researchTable.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", fillData);
-

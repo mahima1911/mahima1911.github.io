@@ -6,6 +6,14 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "NFT minting Web3 App",
+    cardImage: "assets/images/project-page/nft-poster.png",
+    description:
+      "A web3 React dApp that lets people mint NFTs created by my smart Contract in Solidity on the blockchain.",
+
+    Githublink: "https://github.com/mahima1911/Web3",
+  },
+  {
     title: "Food Delivery App",
     cardImage: "assets/images/project-page/delivery.png",
     description:

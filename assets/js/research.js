@@ -7,7 +7,8 @@ const research = [
     title:
       "On the impact of climatic, fiscal and environmental factors on Covid-19: A regression and correlation based study",
     authors: "Koushika P, Mahima S, Shahina A, Nayeemulla Khan A <br><br>",
-    journal: "Paper link : <a href = "https://www.researchgate.net/publication/354951527_ON_THE_IMPACT_OF_CLIMATIC_FISCAL_AND_ENVIRONMENTAL_FACTORS_ON_COVID-19_A_REGRESSION_AND_CORRELATION_BASED_STUDY"> View</a> International journal of Artificial & Computational Intelligence",
+    journal:
+      "Paper link : <a href = 'https://www.researchgate.net/publication/354951527_ON_THE_IMPACT_OF_CLIMATIC_FISCAL_AND_ENVIRONMENTAL_FACTORS_ON_COVID-19_A_REGRESSION_AND_CORRELATION_BASED_STUDY'> View </a> <br><br> International journal of Artificial & Computational Intelligence",
     conferences:
       "4th International Conference of COVID-19 Studies by IKSAD <br><br>",
     researchYr: 2021,
@@ -24,12 +25,12 @@ const research = [
   {
     title:
       "Analysis of Lombard effect on Speech Emotions using Machine Learning",
-    authors: "Indirapriyadarshini A, Mahima S, Uma Maheshwari, Shahina A <br><br>",
+    authors:
+      "Indirapriyadarshini A, Mahima S, Uma Maheshwari, Shahina A <br><br>",
     journal: "",
-    conferences:
-      "",
+    conferences: "",
     researchYr: 2022,
-    citebox: "popup1",
+    citebox: "popup2",
     image: "assets/images/research-page/speech.jpg",
     citation: {
       vancouver:
@@ -37,7 +38,7 @@ const research = [
     },
     abstract:
       "The speech signal, as it emerges from a speaker's mouth, nose and cheeks, is a one-dimensional function of time. A recording device converts the fluctuating air pressure into electrical signals, voltages or currents, which is usually done in a quiet environment. Lombard Speech on the other hand, consists of signals recorded with background noise. Emotions can play an important role in how a person thinks and behaves, and increase the likelihood that action will be taken. In this project, we aim to study the emotions in speech under normal conditions and then compare that with emotions in Lombard speech. The study from our project will help services adapt to the emotional state of customers accordingly.  The Lombard effect influences the pitch and the loudness.  In many situations, individuals will change the manner in which they produce their speech due to the environment (i.e., Lombard Effect).The goal of our project is to create an emotion detector that will gauge your emotions in both a normal and a noisy environment and study what changes associated with the same. The machine learning model will be trained on a speech dataset recorded in a laboratory and then tested using a new database with simulated Lombard speech. For building the model, since the project is a classification problem, we intend to use Convolution Neural Network. <br> Keywords : Speech emotion recognition, Lombard effect, Convolution Neural Network, Machine learning.",
-    absbox: "absPopup1",
+    absbox: "absPopup2",
   },
 ];
 AOS.init();

@@ -9,7 +9,7 @@ const research = [
     authors: "Koushika P, Mahima S, Shahina A, Nayeemulla Khan A <br><br>",
       journal: "International journal of Artificial & Computational Intelligence",
     conferences:
-      "Paper link : <a href = 'https://www.researchgate.net/publication/354951527_ON_THE_IMPACT_OF_CLIMATIC_FISCAL_AND_ENVIRONMENTAL_FACTORS_ON_COVID-19_A_REGRESSION_AND_CORRELATION_BASED_STUDY'> View </a> <br><br> 4th International Conference of COVID-19 Studies by IKSAD <br><br>",
+      "Full Text : <a href = 'https://www.researchgate.net/publication/354951527_ON_THE_IMPACT_OF_CLIMATIC_FISCAL_AND_ENVIRONMENTAL_FACTORS_ON_COVID-19_A_REGRESSION_AND_CORRELATION_BASED_STUDY'> View </a> <br><br> 4th International Conference of COVID-19 Studies by IKSAD <br><br>",
     researchYr: 2021,
     citebox: "popup1",
     image: "assets/images/research-page/covid19-1.jpeg",

@@ -5,6 +5,13 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Associate Software Development Intern",
+    cardImage: "assets/images/experience-page/navis.png",
+    place: "Navis",
+    time: "(Jan, 2022 - Present)",
+    desp: "",
+  },
+  {
     title: "Software Development Intern",
     cardImage: "assets/images/experience-page/LV.jpeg",
     place: "LatentView Analytics",

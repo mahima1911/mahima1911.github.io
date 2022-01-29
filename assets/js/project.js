@@ -10,7 +10,6 @@ const projects = [
     cardImage: "assets/images/project-page/nft-poster.png",
     description:
       "A web3 React dApp that lets people mint NFTs created by my smart Contract in Solidity on the blockchain.",
-
     Githublink: "https://github.com/mahima1911/Web3",
   },
   {

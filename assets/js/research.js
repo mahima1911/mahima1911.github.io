@@ -7,10 +7,9 @@ const research = [
     title:
       "On the impact of climatic, fiscal and environmental factors on Covid-19: A regression and correlation based study",
     authors: "Koushika P, Mahima S, Shahina A, Nayeemulla Khan A <br><br>",
-    journal:
-      "Paper link : <a href = 'https://www.researchgate.net/publication/354951527_ON_THE_IMPACT_OF_CLIMATIC_FISCAL_AND_ENVIRONMENTAL_FACTORS_ON_COVID-19_A_REGRESSION_AND_CORRELATION_BASED_STUDY'> View </a> <br><br> International journal of Artificial & Computational Intelligence",
+      journal: "International journal of Artificial & Computational Intelligence",
     conferences:
-      "4th International Conference of COVID-19 Studies by IKSAD <br><br>",
+      "Paper link : <a href = 'https://www.researchgate.net/publication/354951527_ON_THE_IMPACT_OF_CLIMATIC_FISCAL_AND_ENVIRONMENTAL_FACTORS_ON_COVID-19_A_REGRESSION_AND_CORRELATION_BASED_STUDY'> View </a> <br><br> 4th International Conference of COVID-19 Studies by IKSAD <br><br>",
     researchYr: 2021,
     citebox: "popup1",
     image: "assets/images/research-page/covid19-1.jpeg",

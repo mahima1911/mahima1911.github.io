@@ -9,7 +9,7 @@ const exp = [
     cardImage: "assets/images/experience-page/navis.png",
     place: "Navis",
     time: "(Jan, 2022 - Present)",
-    desp: "",
+    desp: "Working in the Business Intelligence and Analytics team to help build products for Real time operations using Historical data Analytics and Data mining. Also working on building a platform to help the terminals to predict there usecases using AI/ML.",
   },
   {
     title: "Software Development Intern",

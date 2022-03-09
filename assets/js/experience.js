@@ -111,17 +111,18 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
-  {
-    title: "She Hacks-Wells Fargo Shaastra 2021, IIT Madras",
-    subtitle: "Finalist",
-    image: "assets/images/experience-page/shaastra1.jpeg",
-    desp: "Was placed 6th out of multiple teams from over 100+ colleges around India. Solved a Machine Learning problem statement given with over 92.7% accuracy by applying Random Forrest Classifier with Principal Component Analysis",
-  },
+  
   {
     title: "AWS ML Scholarship 2021",
     subtitle: "",
     image: "assets/images/experience-page/aws.png",
     desp: "AWS Machine Learning Scholarship Program by Udacity.",
+  },
+  {
+    title: "She Hacks-Wells Fargo Shaastra 2021, IIT Madras",
+    subtitle: "Finalist",
+    image: "assets/images/experience-page/shaastra1.jpeg",
+    desp: "Was placed 6th out of multiple teams from over 100+ colleges around India. Solved a Machine Learning problem statement given with over 92.7% accuracy by applying Random Forrest Classifier with Principal Component Analysis",
   },
   {
     title: "DevFest SSNCE 2020",

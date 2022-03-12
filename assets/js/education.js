@@ -37,6 +37,11 @@ const moocscards = [
     cardImage: "assets/images/education-page/nptel2.png",
     moocLink: "https://onlinecourses.nptel.ac.in/noc21_cs33/preview",
   },
+  {
+    title: "Finace for Engineers",
+    cardImage: "assets/images/education-page/emory.jpeg",
+    moocLink: "https://drive.google.com/file/d/15oxLdzUd7Fk0TLWVUz0FPtnoraymbE7F/view?usp=drivesdk",
+  },
 ];
 
 const experience = [

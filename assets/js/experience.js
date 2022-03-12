@@ -61,7 +61,7 @@ const volunteershipcards = [
   },
 
   {
-    title: "Wells Fargo Career Mentorship Program",
+    title: "Wells Fargo Career Mentorship Program 2021",
     cardImage: "assets/images/experience-page/wellsfargo.png",
     description: " ",
   },
@@ -71,18 +71,23 @@ const volunteershipcards = [
     description: " ",
   },
   {
-    title: "Procode 2021",
+    title: "Procode 2018-2022",
     cardImage: "assets/images/experience-page/procode.jpeg",
     description: " ",
   },
   {
-    title: "National Service Scheme 2018-present",
+    title: "SSN Coding Club 2018-2022",
+    cardImage: "assets/images/experience-page/coding_club.png",
+    description: " ",
+  },
+  {
+    title: "National Service Scheme 2018-2022",
     cardImage: "assets/images/experience-page/nss.png",
     description: " ",
   },
 
   {
-    title: "IEEE",
+    title: "IEEE 2020-2022",
     cardImage: "assets/images/experience-page/ieee.png",
     description: " ",
   },
@@ -135,6 +140,12 @@ const mentor = [
     subtitle: "Top 130",
     image: "assets/images/experience-page/ieeextreme.jpeg",
     desp: "Placed in the top 130 teams nationwide in the 48 hour programming competition.",
+  },
+  {
+    title: "Hackerrank",
+    subtitle: "",
+    image: "assets/images/experience-page/badges.jpeg",
+    desp: "Badges in Problem Solving, Python, JavaScript & Statistics",
   },
 ];
 

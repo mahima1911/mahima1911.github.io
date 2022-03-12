@@ -153,10 +153,10 @@ const mentor = [
     desp: "Badges in Problem Solving, Python, JavaScript & Statistics",
   },
    {
-    title: "",
+     title: "AWS ML Scholarship 2021",
     subtitle: "",
-    image: "",
-    desp: "",
+    image: "assets/images/experience-page/aws.png",
+    desp: "AWS Machine Learning Scholarship Program by Udacity.",
   },
 ];
 

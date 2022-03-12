@@ -117,10 +117,10 @@ document.addEventListener("DOMContentLoaded", showCards);
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
-    title: "",
+    title: "AWS ML Scholarship 2021",
     subtitle: "",
-    image: "",
-    desp: "",
+    image: "assets/images/experience-page/aws.png",
+    desp: "AWS Machine Learning Scholarship Program by Udacity.",
   },
   {
     title: "AWS ML Scholarship 2021",

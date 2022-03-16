@@ -147,6 +147,12 @@ const mentor = [
     desp: "Placed in the top 130 teams nationwide in the 48 hour programming competition.",
   },
   {
+    title: "Merit Scholarship",
+    subtitle: "Winner",
+    image: "assets/images/experience-page/ssnce.png",
+    desp: "Placed 5th in the entire Department and received a merit scholarship.",
+  },
+  {
     title: "Hackerrank",
     subtitle: "",
     image: "assets/images/experience-page/badges.jpeg",

@@ -59,12 +59,11 @@ const volunteershipcards = [
     cardImage: "assets/images/experience-page/gdsc.png",
     description: "",
   },
-{
+  {
     title: "Google Women Techmakers",
     cardImage: "assets/images/experience-page/womenTech.jpeg",
     description: " ",
   },
-  
   {
     title: "Google Developers Group 2020",
     cardImage: "assets/images/experience-page/gdg.png",

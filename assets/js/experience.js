@@ -8,14 +8,14 @@ const exp = [
     title: "Associate Software Development ",
     cardImage: "assets/images/experience-page/navis.png",
     place: "Navis",
-    time: "(Jan, 2022 - Present)",
+    time: "(Aug, 2022 - Present)",
     desp: "Developed modules as part of Navis Analytics and OpsView products, which allows visualization of terminal operations through dashboards and reports.",
   },
   {
     title: "Associate Software Development Intern",
     cardImage: "assets/images/experience-page/navis.png",
     place: "Navis",
-    time: "(Jan, 2022 - Present)",
+    time: "(Jan, 2022 - July, 2022)",
     desp: "Worked in the Business Intelligence and Analytics team to help build products for Real time operations using Historical data Analytics and Data mining. Also working on building a platform to help the terminals to predict their usecases using AI/ML.",
   },
   {

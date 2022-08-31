@@ -5,7 +5,7 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
    {
-    title: "Associate Software Development ",
+    title: "Associate Software Developer ",
     cardImage: "assets/images/experience-page/navis.png",
     place: "Navis",
     time: "(Aug, 2022 - Present)",

@@ -127,13 +127,7 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
-  {
-    title: "AWS ML Scholarship 2021",
-    subtitle: "",
-    image: "assets/images/experience-page/aws.png",
-    desp: "AWS Machine Learning Scholarship Program by Udacity.",
-  },
-  {
+    {
     title: "AWS ML Scholarship 2021",
     subtitle: "",
     image: "assets/images/experience-page/aws.png",
@@ -168,13 +162,7 @@ const mentor = [
     subtitle: "",
     image: "assets/images/experience-page/badges.jpeg",
     desp: "Badges in Problem Solving, Python, JavaScript & Statistics",
-  },
-   {
-     title: "AWS ML Scholarship 2021",
-    subtitle: "",
-    image: "assets/images/experience-page/aws.png",
-    desp: "AWS Machine Learning Scholarship Program by Udacity.",
-  },
+  }   
 ];
 
 const showCards3 = () => {

@@ -36,7 +36,7 @@ const research = [
         "Indirapriyadarshini A, Mahima S, Uma Maheshwari, Shahina A Analysis of Lombard effect on Speech Emotions using Machine Learning.",
     },
     abstract:
-    "Analysing the impact of Lombard effect in 4 speech emotions : Angry, Sad, Happy and Neutral using various Machine Learning models and a Convolutional Neural network. The entire dataset was curated, collected and trained by us in this project."
+    "Analysing the impact of Lombard effect in 4 speech emotions : Angry, Sad, Happy and Neutral using various Machine Learning models and a Convolutional Neural network. The entire dataset was curated, collected and trained by us in this project.",
        absbox: "absPopup2",
   },
 ];

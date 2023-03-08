@@ -26,7 +26,7 @@ const research = [
       "Analysis of Lombard effect on Speech Emotions using Machine Learning",
     authors:
       "Indirapriyadarshini A, Mahima S, Uma Maheshwari, Shahina A <br><br>",
-    journal: "",
+    journal: "International Journal of Computing and Digital Systems",
     conferences: "",
     researchYr: 2022,
     citebox: "popup2",

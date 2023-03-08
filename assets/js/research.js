@@ -36,8 +36,8 @@ const research = [
         "Indirapriyadarshini A, Mahima S, Uma Maheshwari, Shahina A Analysis of Lombard effect on Speech Emotions using Machine Learning.",
     },
     abstract:
-      "The speech signal, as it emerges from a speaker's mouth, nose and cheeks, is a one-dimensional function of time. A recording device converts the fluctuating air pressure into electrical signals, voltages or currents, which is usually done in a quiet environment. Lombard Speech on the other hand, consists of signals recorded with background noise. Emotions can play an important role in how a person thinks and behaves, and increase the likelihood that action will be taken. In this project, we aim to study the emotions in speech under normal conditions and then compare that with emotions in Lombard speech. The study from our project will help services adapt to the emotional state of customers accordingly.  The Lombard effect influences the pitch and the loudness.  In many situations, individuals will change the manner in which they produce their speech due to the environment (i.e., Lombard Effect).The goal of our project is to create an emotion detector that will gauge your emotions in both a normal and a noisy environment and study what changes associated with the same. The machine learning model will be trained on a speech dataset recorded in a laboratory and then tested using a new database with simulated Lombard speech. For building the model, since the project is a classification problem, we intend to use Convolution Neural Network. <br> Keywords : Speech emotion recognition, Lombard effect, Convolution Neural Network, Machine learning.",
-    absbox: "absPopup2",
+    "Analysing the impact of Lombard effect in 4 speech emotions : Angry, Sad, Happy and Neutral using various Machine Learning models and a Convolutional Neural network. The entire dataset was curated, collected and trained by us in this project."
+       absbox: "absPopup2",
   },
 ];
 AOS.init();

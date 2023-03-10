@@ -5,14 +5,14 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
    {
-    title: "Associate Software Developer ",
+    title: "Associate Software Engineer ",
     cardImage: "assets/images/experience-page/navis.png",
     place: "Navis",
     time: "(Aug, 2022 - Present)",
     desp: "Developed modules as part of Navis Analytics and OpsView products, which allows visualization of terminal operations through dashboards and reports.",
   },
   {
-    title: "Associate Software Development Intern",
+    title: "Associate Software Engineering Intern",
     cardImage: "assets/images/experience-page/navis.png",
     place: "Navis",
     time: "(Jan, 2022 - July, 2022)",

@@ -30,8 +30,8 @@ const exp = [
 const showCards2 = () => {
   let output = "";
   exp.forEach(
-    ({ title, cardImage, place, time, desp }) =>
-      (output += `        
+      ({ title, cardImage, place, time, desp }) =>
+          (output += `        
     <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
       <div class="card card1">
         <img src="${cardImage}" class="featured-image"/>
@@ -103,13 +103,12 @@ const volunteershipcards = [
     description: " ",
   },
 ];
-
 const showCards = () => {
   let output = "";
   volunteershipcards.forEach(
-    ({ title, cardImage, description }) =>
-      (output += `        
-      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 400px;width:400px">
+      ({ title, cardImage, description }) =>
+          (output += `        
+      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
       
       <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
       <div class="content">
@@ -124,7 +123,6 @@ const showCards = () => {
 document.addEventListener("DOMContentLoaded", showCards);
 
 // Hackathon Section
-
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
     {

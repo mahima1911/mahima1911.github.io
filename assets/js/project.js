@@ -10,7 +10,7 @@ const projects = [
     cardImage: "assets/images/project-page/living_room.png",
     description:
       "A 3D model of a living room created using Blender.",
-    Githublink: "https://github.com/mahima1911/Web3",
+    Githublink: "https://github.com/mahima1911/3D_Model_LivingRoom",
   },
   {
     title: "NFT minting Web3 App",

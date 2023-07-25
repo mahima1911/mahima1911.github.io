@@ -6,6 +6,13 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "3D- Modelling",
+    cardImage: "assets/images/project-page/living room.png",
+    description:
+      "A 3D model of a living room created using Blender.",
+    Githublink: "https://github.com/mahima1911/Web3",
+  },
+  {
     title: "NFT minting Web3 App",
     cardImage: "assets/images/project-page/nft-poster.png",
     description:

@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "3D- Modelling",
-    cardImage: "assets/images/project-page/living room.png",
+    cardImage: "assets/images/project-page/living_room.png",
     description:
       "A 3D model of a living room created using Blender.",
     Githublink: "https://github.com/mahima1911/Web3",

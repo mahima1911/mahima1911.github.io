@@ -150,6 +150,13 @@ document.addEventListener("DOMContentLoaded", showCards1);
 const timeline = document.querySelector(".timeline-container");
 const timelinesection = [
   {
+    heading: "University of Massachusetts at Amherst",
+    image: "assets/images/education-page/umass.png",
+    subheading: "Masters of Science, Computer Science, (2023-Present) ",
+    description:
+      "",
+  },
+  {
     heading: "SSN College of Engineering",
     image: "assets/images/education-page/ssn.png",
     subheading: "Bachelors of Technology, Information Technology, (2018-2022) ",

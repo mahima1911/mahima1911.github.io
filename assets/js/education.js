@@ -151,7 +151,7 @@ const timeline = document.querySelector(".timeline-container");
 const timelinesection = [
   {
     heading: "University of Massachusetts at Amherst",
-    image: "assets/images/education-page/umass1.png",
+    image: "assets/images/education-page/umass.jpg",
     subheading: "Masters of Science, Computer Science, (2023-Present) ",
     description:
       "",

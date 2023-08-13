@@ -154,7 +154,7 @@ const timelinesection = [
     image: "assets/images/education-page/umass.png",
     subheading: "Masters of Science, Computer Science, (2023-Present) ",
     description:
-      "<li>CGPA: 8.9</li><li>Event Head of Procode(Intra department coding club)</li><li>Member of Coding Club, ML Tech Club</li>",
+      "",
   },
   {
     heading: "SSN College of Engineering",

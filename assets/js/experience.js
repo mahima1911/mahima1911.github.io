@@ -8,22 +8,29 @@ const exp = [
     title: "Associate Software Engineer ",
     cardImage: "assets/images/experience-page/navis.png",
     place: "Navis",
-    time: "(Aug, 2022 - Present)",
-    desp: "Developed modules as part of Navis Analytics and OpsView products, which allows visualization of terminal operations through dashboards and reports.",
+    time: "(Aug, 2022 - Aug, 2023)",
+    desp: "<li> Built monitoring dashboards to facilitate 15 international terminals to analyze their performance in real-time operations. </li> <li> Developed modules as part of Navis Analytics and OpsView products, which allow visualization of terminal operations through dashboards using Power BI and reports to increase their daily performance. </li> <li> Tested software for bugs and operating speed, fixing bugs and increasing efficiency. </li>",
   },
   {
     title: "Associate Software Engineering Intern",
     cardImage: "assets/images/experience-page/navis.png",
     place: "Navis",
     time: "(Jan, 2022 - July, 2022)",
-    desp: "Worked in the Business Intelligence and Analytics team to help build products for Real time operations using Historical data Analytics and Data mining. Also working on building a platform to help the terminals to predict their usecases using AI/ML.",
+    desp: "<li>Programmed, developed, and optimized ETL logic using Pentaho and SQL which increased overall efficiency. </li> <li> Optimized data processing logic using Java and helped in migration while upgrading from one version to another. </li> <li> Created multiple unit and integration test cases using Groovy to enhance the product performance. </li>",
   },
-  {
+   {
     title: "Software Development Intern",
     cardImage: "assets/images/experience-page/LV.jpeg",
     place: "LatentView Analytics",
     time: "(May, 2021 - Aug, 2021)",
     desp: "<li>Super enhanced and deployed a fully automated chatbot made with React to answer multi-tenant questions. Streamlined bot communication with the rest API backend made with python and flask. Tested the same with Postman.Pre-processed different types of files and file formats to ingest into Azure QnA maker to finally deploy the chatbot.</li> <li>Created and developed a whole new tool using Excel and coded it completely using VBA. Used Jira tool for project management and employed agile methodologies. Drastically improved performance and performed unit testing multiple times.</li>",
+  },
+  {
+    title: "Career Mentorship Program ",
+    cardImage: "assets/images/experience-page/LV.jpeg",
+    place: "Wells Fargo",
+    time: "(Apr, 2021 - Sep, 2021)",
+    desp: "<li>Attended a series of mentorship sessions on dealing with challenges and setbacks in the professional world. </li> <li>Focussed on FinTech, CLV and AI in the finance sector.</li>",
   },
 ];
 

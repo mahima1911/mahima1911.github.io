@@ -27,7 +27,7 @@ const exp = [
   },
   {
     title: "Career Mentorship Program ",
-    cardImage: "assets/images/experience-page/LV.jpeg",
+    cardImage: "assets/images/experience-page/wellsfargo.png",
     place: "Wells Fargo",
     time: "(Apr, 2021 - Sep, 2021)",
     desp: "<li>Attended a series of mentorship sessions on dealing with challenges and setbacks in the professional world. </li> <li>Focussed on FinTech, CLV and AI in the finance sector.</li>",

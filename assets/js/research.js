@@ -9,7 +9,7 @@ const research = [
     authors: "Koushika P, Mahima S, Shahina A, Nayeemulla Khan A <br><br>",
       journal: "International journal of Artificial & Computational Intelligence",
     conferences:
-      "Full Text : <a href = 'https://www.researchgate.net/publication/354951527_ON_THE_IMPACT_OF_CLIMATIC_FISCAL_AND_ENVIRONMENTAL_FACTORS_ON_COVID-19_A_REGRESSION_AND_CORRELATION_BASED_STUDY'> View </a> <br><br> 4th International Conference of COVID-19 Studies by IKSAD <br><br>",
+      "Full Text : <a href = 'http://www.acors.org/Journal/Papers/Volume2/issue2/vol2_issue2_01.pdf'> View </a> <br><br> 4th International Conference of COVID-19 Studies by IKSAD <br><br>",
     researchYr: 2021,
     citebox: "popup1",
     image: "assets/images/research-page/covid19-1.jpeg",
@@ -27,7 +27,7 @@ const research = [
     authors:
       "Indirapriyadarshini A, Mahima S, Uma Maheshwari, Shahina A <br><br>",
     journal: "International Journal of Computing and Digital Systems",
-    conferences: "",
+    conferences: "Full Text : <a href = 'https://journal.uob.edu.bh/bitstream/handle/123456789/4877/IJCDS140133.pdf'> View </a> ",,
     researchYr: 2022,
     citebox: "popup2",
     image: "assets/images/research-page/speech.jpg",

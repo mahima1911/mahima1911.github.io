@@ -5,7 +5,7 @@ const researchTable = document.querySelector(".main");
 const research = [
   {
     title:
-      "On the impact of climatic, fiscal and environmental factors on Covid-19: A regression and correlation based study",
+      "<a href = 'http://www.acors.org/Journal/Papers/Volume2/issue2/vol2_issue2_01.pdf'> On the impact of climatic, fiscal and environmental factors on Covid-19: A regression and correlation based study</a>",
     authors: "Koushika P, Mahima S, Shahina A, Nayeemulla Khan A <br><br>",
       journal: "International journal of Artificial & Computational Intelligence",
     conferences:
@@ -23,7 +23,7 @@ const research = [
   },
   {
     title:
-      "Analysis of Lombard effect on Speech Emotions using Machine Learning",
+      "<a href = 'https://journal.uob.edu.bh/bitstream/handle/123456789/4877/IJCDS140133.pdf'> Analysis on the Impact of Lombard Effect on Speech Emotions using Machine Learning</a>",
     authors:
       "Indirapriyadarshini A, Mahima S, Uma Maheshwari, Shahina A <br><br>",
     journal: "International Journal of Computing and Digital Systems",

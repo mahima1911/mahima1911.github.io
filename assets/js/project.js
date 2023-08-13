@@ -20,7 +20,7 @@ const projects = [
     Githublink: "https://github.com/mahima1911/Web3",
   },
   {
-    title: "Food Delivery App",
+    title: "BiteSwift (Food Delivery App)",
     cardImage: "assets/images/project-page/delivery.png",
     description:
       "An on campus food delivery app for students and faculty linking the various unversity canteens.",
@@ -36,12 +36,12 @@ const projects = [
     Githublink: "https://github.com/mahima1911/COVID-19",
   },
   {
-    title: "Hospital Bot",
+    title: "MedMapBot",
     cardImage: "assets/images/project-page/twitterbot.png",
     description:
       "Twitter Bot that responds to messages it is tagged in with a list of all nearby hospitals, and COVID-19 testing labs.",
 
-    Githublink: "https://github.com/mahima1911/HospitalBot",
+    Githublink: "https://github.com/mahima1911/MedMapBot",
   },
   {
     title: "Face Recognition App",

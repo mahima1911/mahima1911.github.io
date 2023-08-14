@@ -5,7 +5,7 @@ const researchTable = document.querySelector(".main");
 const research = [
   {
     title:
-      "On the impact of climatic, fiscal and environmental factors on Covid-19: A regression and correlation based study",
+      "On the impact of climatic, fiscal and environmental factors on Covid-19: A regression and correlation-based study",
     authors: "Koushika P, Mahima S, Shahina A, Nayeemulla Khan A <br><br>",
       journal: "International journal of Artificial & Computational Intelligence",
     conferences:
@@ -28,7 +28,7 @@ const research = [
       "Indirapriyadarshini A, Mahima S, Uma Maheshwari, Shahina A <br><br>",
     journal: "International Journal of Computing and Digital Systems",
     conferences: "Full Text : <a href = 'https://journal.uob.edu.bh/bitstream/handle/123456789/4877/IJCDS140133.pdf'> View </a> ",
-    researchYr: 2022,
+    researchYr: 2023,
     citebox: "popup2",
     image: "assets/images/research-page/speech.jpg",
     citation: {

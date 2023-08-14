@@ -27,7 +27,7 @@ const research = [
     authors:
       "Indirapriyadarshini A, Mahima S, Uma Maheshwari, Shahina A <br><br>",
     journal: "International Journal of Computing and Digital Systems",
-    conferences: "Full Text : <a href = 'https://journal.uob.edu.bh/bitstream/handle/123456789/4877/IJCDS140133.pdf'> View </a> ",,
+    conferences: "Full Text : <a href = 'https://journal.uob.edu.bh/bitstream/handle/123456789/4877/IJCDS140133.pdf'> View </a> ",
     researchYr: 2022,
     citebox: "popup2",
     image: "assets/images/research-page/speech.jpg",

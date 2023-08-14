@@ -23,7 +23,7 @@ const research = [
   },
   {
     title:
-      "nalysis on the Impact of Lombard Effect on Speech Emotions using Machine Learning",
+      "Analysis on the Impact of Lombard Effect on Speech Emotions using Machine Learning",
     authors:
       "Indirapriyadarshini A, Mahima S, Uma Maheshwari, Shahina A <br><br>",
     journal: "International Journal of Computing and Digital Systems",

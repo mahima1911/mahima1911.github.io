@@ -69,6 +69,16 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
+    title: "Girls Who Code",
+    cardImage: "assets/images/experience-page/gwc.png",
+    description: "",
+  },
+  {
+    title: "Society of Women Engineers",
+    cardImage: "assets/images/experience-page/swe.png",
+    description: "",
+  },
+  {
     title: "Google Developer Student Clubs 2020-2021",
     cardImage: "assets/images/experience-page/gdsc.png",
     description: "",
@@ -76,6 +86,11 @@ const volunteershipcards = [
   {
     title: "Google Women Techmakers",
     cardImage: "assets/images/experience-page/womenTech.jpeg",
+    description: " ",
+  },
+  {
+    title: "Women in Computer Science",
+    cardImage: "assets/images/experience-page/wics.jpeg",
     description: " ",
   },
   {

@@ -44,7 +44,7 @@ const moocscards = [
   },
   {
     title: "Prompt Engineering",
-    cardImage: "assets/images/education-page/emory.jpeg",
+    cardImage: "assets/images/education-page/vanderbilt.jpeg",
     moocLink: "https://www.coursera.org/account/accomplishments/verify/VGKWVJAG2WRQ",
   },
 ];

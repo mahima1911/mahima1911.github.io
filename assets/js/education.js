@@ -42,6 +42,11 @@ const moocscards = [
     cardImage: "assets/images/education-page/emory.jpeg",
     moocLink: "https://drive.google.com/file/d/15oxLdzUd7Fk0TLWVUz0FPtnoraymbE7F/view?usp=drivesdk",
   },
+  {
+    title: "Prompt Engineering",
+    cardImage: "assets/images/education-page/emory.jpeg",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/VGKWVJAG2WRQ",
+  },
 ];
 
 const experience = [

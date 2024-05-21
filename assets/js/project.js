@@ -6,93 +6,119 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Code Summarization and Evaluation",
+    cardImage: "assets/images/project-page/codesum.webp",
+    description:
+      "",
+      
+    Githublink: "https://github.com/harshinibharani/codesum",
+  },
+  {
+    title: "SEEDB",
+    cardImage: "assets/images/project-page/seedb.jpeg",
+    description:
+      "",
+      
+    Githublink: "https://github.com/meghanakrish19/SeeDB_645_DBMS",
+  },
+  {
+    title: "CricInsight 2023",
+    cardImage: "assets/images/project-page/cricinsight.webp",
+    description:
+      "",
+      
+    Githublink: "https://github.com/mahima1911/2023_Cricket_WorldCup_Predctions",
+  },
+  {
     title: "3D- Modelling",
     cardImage: "assets/images/project-page/living_room.png",
     description:
-      "A 3D model of a living room created using Blender.",
+      "",
+      // A 3D model of a living room created using Blender and rendered using Unity3D.
     Githublink: "https://github.com/mahima1911/3D_Model_LivingRoom",
   },
   {
     title: "NFT minting Web3 App",
     cardImage: "assets/images/project-page/nft-poster.png",
     description:
-      "A web3 React dApp that lets people mint NFTs created by my smart Contract in Solidity on the blockchain.",
+      "",
+      // A web3 React dApp that lets people mint NFTs created by my smart Contract in Solidity on the blockchain.
     Githublink: "https://github.com/mahima1911/Web3",
   },
   {
     title: "BiteSwift (Food Delivery App)",
     cardImage: "assets/images/project-page/delivery.png",
     description:
-      "An on campus food delivery app for students and faculty linking the various unversity canteens.",
-
+      "",
+// An on campus food delivery app for students and faculty linking the various unversity canteens.
     Githublink: "https://github.com/Gokhulnath/swiggy_client_app_clone",
   },
   {
     title: "COVID-19 Analysis and Prediction",
     cardImage: "assets/images/project-page/covidanalysis.png",
     description:
-      "Data analysis and Prediction of COVID-19 in India and Worldwide",
-
+      "",
+// Data analysis and Prediction of COVID-19 in India and Worldwide
     Githublink: "https://github.com/mahima1911/COVID-19",
   },
   {
     title: "MedMapBot",
     cardImage: "assets/images/project-page/twitterbot.png",
     description:
-      "Twitter Bot that responds to messages it is tagged in with a list of all nearby hospitals, and COVID-19 testing labs.",
-
+      "",
+// Twitter Bot that responds to messages it is tagged in with a list of all nearby hospitals, and COVID-19 testing labs.
     Githublink: "https://github.com/mahima1911/MedMapBot",
   },
   {
     title: "Face Recognition App",
     cardImage: "assets/images/project-page/facerecog.jpeg",
     description:
-      "An Android app that by opening its camera scans an image and detects the faces by providing a bounding box around it.",
-
+      "",
+// An Android app that by opening its camera scans an image and detects the faces by providing a bounding box around it.
     Githublink: "https://github.com/mahima1911/FaceDetectionApp",
   },
   {
     title: "Screen Control",
     cardImage: "assets/images/project-page/screen.jpeg",
-    description: "Computer Control by Gesture detection",
-
+    description: "",
+// Computer Control by Gesture detection
     Githublink: "https://github.com/mahima1911/Screen_Control",
   },
   {
     title: "Text Recognition App",
     cardImage: "assets/images/project-page/textrecog.jpeg",
     description:
-      "Android app that uses MLKit by Firebase to recognise and display the text from an image.",
-
+      "",
+// Android app that uses MLKit by Firebase to recognise and display the text from an image.
     Githublink: "https://github.com/mahima1911/TextRecognitionApp",
   },
   {
     title: "Tic Tac Toe Game",
     cardImage: "assets/images/project-page/ttt.png",
-    description: "An Android application of the famous TicTacToe game.",
-
+    description: "",
+// An Android application of the famous TicTacToe game.
     Githublink: "https://github.com/mahima1911/TicTacToe",
   },
   {
     title: "Coin Man Game",
     cardImage: "assets/images/project-page/coinman.jpg",
-    description: "An Android Game built using GDX.",
-
+    description: "",
+// An Android Game built using GDX.
     Githublink: "https://github.com/mahima1911/CoinMan-Game",
   },
   {
     title: "Speech to Text App",
     cardImage: "assets/images/project-page/voice.png",
-    description: "Android app that converts input speech to text.",
-
+    description: "",
+// Android app that converts input speech to text.
     Githublink: "https://github.com/mahima1911/SpeechToText_App",
   },
   {
     title: "Best Apartment",
     cardImage: "assets/images/project-page/apartment.jpeg",
     description:
-      "Suitable apartment to move in based on location, rent, distance from workplace, neighbourhood and metro stations.",
-
+      "",
+// Suitable apartment to move in based on location, rent, distance from workplace, neighbourhood and metro stations.
     Githublink: "https://github.com/mahima1911/Coursera_Capstone",
   },
 ];

@@ -159,14 +159,14 @@ const timelinesection = [
     image: "assets/images/education-page/umass.png",
     subheading: "Masters of Science, Computer Science, (2023-Present) ",
     description:
-      "",
+      "<li>CGPA: 3.95/4</li><li>Machine Learning, Secure Distributed Systems, Systems for Data Science, Software Engineering, Statistics, Database Design and Implementation</li>",
   },
   {
     heading: "SSN College of Engineering",
     image: "assets/images/education-page/ssn.png",
     subheading: "Bachelors of Technology, Information Technology, (2018-2022) ",
     description:
-      "<li>CGPA: 8.9</li><li>Event Head of Procode(Intra department coding club)</li><li>Member of Coding Club, ML Tech Club</li>",
+      "<li>CGPA: 8.9/10</li><li>Event Head of Procode(Intra department coding club)</li><li>Member of Coding Club, ML Tech Club</li>",
   },
 
   {

@@ -5,16 +5,23 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
    {
+    title: "Software Engineer Intern",
+    cardImage: "assets/images/experience-page/a360.png",
+    place: "Advisor360",
+    time: "(June, 2024 - Aug, 2024)",
+    desp: "<li> Developed and optimized SQL stored procedures for account management, enhancing data validation and error handling using Python, C#, and .NET in a fintech environment. </li> <li> Implemented Jenkins for CI/CD pipelines, improving deployment times and code quality. Created and documented RESTful API endpoints for seamless service communication. Utilized Orkes for workflow orchestration. </li> <li> Utilized Docker and Kubernetes for containerization and orchestration, improving scalability and deployment efficiency. Monitored application performance with Dynatrace to ensure high availability. </li>",
+  },
+   {
     title: "Associate Software Engineer ",
-    cardImage: "assets/images/experience-page/navis.png",
-    place: "Navis",
+    cardImage: "assets/images/experience-page/kaleris.png",
+    place: "Kaleris",
     time: "(Aug, 2022 - Aug, 2023)",
     desp: "<li> Built monitoring dashboards to facilitate 15 international terminals to analyze their performance in real-time operations. </li> <li> Developed modules as part of Navis Analytics and OpsView products, which allow visualization of terminal operations through dashboards using Power BI and reports to increase their daily performance. </li> <li> Tested software for bugs and operating speed, fixing bugs and increasing efficiency. </li>",
   },
   {
     title: "Associate Software Engineering Intern",
-    cardImage: "assets/images/experience-page/navis.png",
-    place: "Navis",
+    cardImage: "assets/images/experience-page/kaleris.png",
+    place: "Kaleris",
     time: "(Jan, 2022 - July, 2022)",
     desp: "<li>Programmed, developed, and optimized ETL logic using Pentaho and SQL which increased overall efficiency. </li> <li> Optimized data processing logic using Java and helped in migration while upgrading from one version to another. </li> <li> Created multiple unit and integration test cases using Groovy to enhance the product performance. </li>",
   },

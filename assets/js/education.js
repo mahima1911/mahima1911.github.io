@@ -159,7 +159,7 @@ const timelinesection = [
     image: "assets/images/education-page/umass.png",
     subheading: "Masters of Science, Computer Science, (2023-Present) ",
     description:
-      "<li>CGPA: 3.95/4</li><li>Machine Learning, Secure Distributed Systems, Systems for Data Science, Software Engineering, Statistics, Database Design and Implementation</li>",
+      "<li>CGPA: 3.95/4</li><li>Machine Learning, Secure Distributed Systems, Systems for Data Science, Software Engineering, Statistics, Database Design and Implementation, Business Intelligence and Analytics, Algorithms for Data Science</li>",
   },
   {
     heading: "SSN College of Engineering",

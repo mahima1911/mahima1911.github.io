@@ -5,11 +5,18 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
    {
+    title: "Software Engineer Intern Co-op",
+    cardImage: "assets/images/experience-page/a360.png",
+    place: "Advisor360",
+    time: "(Sep, 2024 - present)",
+    desp: "<li> Enhanced workflow orchestration by implementing extensive solutions with Orkes, Kafka and Python, improving system reliability and scalability. </li> <li> Optimized CI/CD pipelines using Jenkins, and monitored application performance with Dynatrace for high availability. </li> <li> Utilized Docker and Kubernetes for container orchestration, .NET for backend services, and Redis for efficient code value storage. </li>",
+  },
+   {
     title: "Software Engineer Intern",
     cardImage: "assets/images/experience-page/a360.png",
     place: "Advisor360",
     time: "(June, 2024 - Aug, 2024)",
-    desp: "<li> Developed and optimized SQL stored procedures for account management, enhancing data validation and error handling using Python, C#, and .NET in a fintech environment. </li> <li> Implemented Jenkins for CI/CD pipelines, improving deployment times and code quality. Created and documented RESTful API endpoints for seamless service communication. Utilized Orkes for workflow orchestration. </li> <li> Utilized Docker and Kubernetes for containerization and orchestration, improving scalability and deployment efficiency. Monitored application performance with Dynatrace to ensure high availability. </li>",
+    desp: "<li> Developed and optimized SQL stored procedures for account management and integrated them with C# backend services in a fintech environment. </li> <li> Created and documented RESTful API endpoints using Python, enabling seamless service communication. </li> <li> Worked on workflow orchestration with Orkes, and utilized Docker for containerization, enhancing deployment efficiency. </li>",
   },
    {
     title: "Associate Software Engineer ",

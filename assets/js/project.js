@@ -6,6 +6,14 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Distributed Stock Trading",
+    cardImage: "assets/images/project-page/stock.jpg",
+    description:
+      "",
+      
+    Githublink: "https://github.com/mahima1911/Distributed-Stock-Trading",
+  },
+  {
     title: "Code Summarization and Evaluation",
     cardImage: "assets/images/project-page/codesum.webp",
     description:

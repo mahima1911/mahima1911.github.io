@@ -16,7 +16,7 @@ I’m a Software Engineer II at Advisor360, building backend systems and AI tool
 
 | Page | Content |
 | --- | --- |
-| `index.html` | Introduction, engineering outcomes, selected work, about, skills, and contact |
+| `index.html` | Introduction, selected work, about, skills, and contact |
 | `experience.html` | Advisor360, Kaleris / Navis, and LatentView Analytics |
 | `projects.html` | Searchable, filterable projects and an expandable archive of earlier work |
 | `education.html` | Degrees, coursework, community, and selected recognition |
@@ -54,7 +54,7 @@ Open [localhost:8000](http://localhost:8000). Stop the server with `Ctrl+C`.
 - Keep older projects in the expandable archive rather than removing their links.
 - Update page titles, descriptions, canonical URLs, and `sitemap.xml` when adding pages.
 
-The existing assets and legacy scripts/styles remain in the repository for reference. The refreshed core pages use `portfolio.css`, `portfolio.js`, and `portfolio-effects.js`, with no runtime third-party JavaScript or CSS dependencies. Cursor and particle interactions live in `assets/js/portfolio-effects.js`.
+The existing assets and legacy scripts/styles remain in the repository for reference. The refreshed core pages use `portfolio.css`, `portfolio.js`, and `portfolio-effects.js`, with no runtime third-party JavaScript or CSS dependencies. Particle interactions live in `assets/js/portfolio-effects.js`.
 
 ## Publish with GitHub Pages
 
@@ -70,7 +70,7 @@ The refreshed layout includes a few touches from the original portfolio: lavende
 - Responsive mobile navigation with `aria-expanded` state and Escape-to-close behavior.
 - Native expandable research summaries and project archive.
 - Project filters with pressed states, an announced result count, and a no-results state.
-- Reduced-motion preference support; no loading screen. The original-style dot-and-ring cursor is enabled only for a fine mouse pointer. The homepage has connected, drifting particles that repel from the pointer. A Pause motion control stops the decorative animation; reduced-motion preferences disable it by default. Touch devices retain their native behavior.
+- Reduced-motion preference support; no loading screen. The native browser cursor is used throughout. The homepage has connected, drifting particles that repel from the pointer. A Pause motion control stops the decorative animation; reduced-motion preferences disable it by default. Touch devices retain their native behavior.
 
 ## License
 

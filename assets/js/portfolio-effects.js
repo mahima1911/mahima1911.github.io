@@ -2,51 +2,6 @@
 (() => {
   const finePointer = matchMedia('(hover: hover) and (pointer: fine)');
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
-  const root = document.documentElement;
-  const dot = document.createElement('span');
-  const ring = document.createElement('span');
-  dot.className = 'pointer-dot';
-  ring.className = 'pointer-ring';
-  dot.setAttribute('aria-hidden', 'true');
-  ring.setAttribute('aria-hidden', 'true');
-  document.body.append(dot, ring);
-  let x = 0, y = 0, ringX = 0, ringY = 0, cursorFrame = 0;
-  let tracking = false;
-  function paintCursor() {
-    cursorFrame = 0;
-    if (!tracking || !finePointer.matches) return;
-    const ease = reducedMotion.matches ? 1 : 0.2;
-    ringX += (x - ringX) * ease;
-    ringY += (y - ringY) * ease;
-    ring.style.left = `${ringX}px`;
-    ring.style.top = `${ringY}px`;
-    if (Math.abs(x - ringX) + Math.abs(y - ringY) > 0.2) {
-      cursorFrame = requestAnimationFrame(paintCursor);
-    }
-  }
-  function hideCursor() {
-    tracking = false;
-    root.classList.remove('custom-pointer', 'pointer-hover');
-    cancelAnimationFrame(cursorFrame);
-    cursorFrame = 0;
-  }
-  document.addEventListener('pointermove', event => {
-    if (!finePointer.matches || event.pointerType === 'touch') return;
-    x = event.clientX;
-    y = event.clientY;
-    if (!tracking) { ringX = x; ringY = y; }
-    tracking = true;
-    root.classList.add('custom-pointer');
-    root.classList.toggle('pointer-hover', !!event.target.closest('a, button, summary, input, textarea, select'));
-    dot.style.left = `${x}px`;
-    dot.style.top = `${y}px`;
-    if (!cursorFrame) cursorFrame = requestAnimationFrame(paintCursor);
-  }, { passive: true });
-  document.documentElement.addEventListener('pointerleave', hideCursor);
-  window.addEventListener('blur', hideCursor);
-  document.addEventListener('keydown', hideCursor);
-  finePointer.addEventListener('change', hideCursor);
-
   const canvas = document.querySelector('.hero-particles');
   if (!canvas) return;
   const ctx = canvas.getContext('2d');

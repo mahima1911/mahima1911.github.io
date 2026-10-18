@@ -1103,30 +1103,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 }
 @media (prefers-reduced-motion: reduce) { .hello-wave { animation: none; } }
 
-/* Original-style mouse interactions, without intercepting clicks. */
-.pointer-dot, .pointer-ring {
-  position: fixed;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  border-radius: 50%;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  z-index: 1000;
-}
-.pointer-dot { width: 7px; height: 7px; background: #b36d96; }
-.pointer-ring {
-  width: 25px;
-  height: 25px;
-  background: #bf90c02b;
-  border: 1px solid #aa7eaf99;
-  transition: width .18s, height .18s, opacity .18s;
-}
-@media (hover: hover) and (pointer: fine) {
-  .custom-pointer, .custom-pointer * { cursor: none; }
-  .custom-pointer .pointer-dot, .custom-pointer .pointer-ring { opacity: 1; }
-  .pointer-hover .pointer-ring { width: 40px; height: 40px; }
-}
+/* Decorative background retains the native browser cursor. */
 .hero { isolation: isolate; }
 .hero-particles {
   position: absolute;
@@ -1149,3 +1126,12 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 }
 .hero.motion-paused .hello-wave { animation-play-state: paused; }
 @media (max-width: 720px) { .motion-toggle { right: 22px; bottom: 3px; } }
+
+/* Keep the footer focused on contact links. */
+.footer { display: flex; justify-content: flex-end; }
+@media (max-width: 720px) { .footer { justify-content: flex-start; } }
+
+.about.about-simple { grid-template-columns: 1fr; max-width: 900px; }
+
+.section-intro { font-size: 14px; color: var(--muted); margin: 14px 0 0; }
+.personal-interests { margin-top: 24px; }

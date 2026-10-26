@@ -1,6 +1,6 @@
 # Mahima Sundararajan — Portfolio
 
-A personal portfolio focused on backend engineering, distributed systems, multi-tenant fintech platforms, and practical AI developer tools.
+A personal portfolio showcasing software engineering, application development, data systems, and practical AI tools.
 
 **Website:** [mahima1911.github.io](https://mahima1911.github.io/)
 
@@ -10,7 +10,7 @@ A personal portfolio focused on backend engineering, distributed systems, multi-
 
 ## About
 
-I’m a Software Engineer II at Advisor360, building backend systems and AI tools for wealth management. My work includes migrating applications to multi-tenancy, designing production APIs, and building agents for incident triage, release preparation, and dependency upgrades. Previously, I developed logistics software at Kaleris / Navis. I hold an MS in Computer Science from UMass Amherst (GPA: 3.98/4).
+I’m a Software Engineer II at Advisor360, building enterprise applications, data workflows, and AI tools. My work includes migrating applications to multi-tenancy, designing production APIs, and building agents for incident triage, release preparation, and dependency upgrades. Previously, I developed logistics software at Kaleris / Navis. I hold an MS in Computer Science from UMass Amherst (GPA: 3.98/4).
 
 ## What’s inside
 
